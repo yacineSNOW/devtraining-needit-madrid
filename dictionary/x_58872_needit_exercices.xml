@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Exercices" max_length="40" name="x_58872_needit_exercices" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Active" label="Active" max_length="40" name="u_active" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Article type" label="Article type" max_length="40" name="u_article_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Attachment link" label="Attachment link" max_length="40" name="u_attachment_link" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Author" label="Author" max_length="40" name="u_author" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Blog Candidate" label="Blog Candidate" max_length="40" name="u_blog_candidate" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Blog URL" label="Blog URL" max_length="40" name="u_blog_url" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Cannot Read" label="Cannot Read" max_length="40" name="u_cannot_read" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Can Read" label="Can Read" max_length="40" name="u_can_read" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Category" label="Category" max_length="40" name="u_category" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Category (N)" label="Category (N)" max_length="40" name="u_category__n_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Class" label="Class" max_length="40" name="u_class" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=CMDB CI" label="CMDB CI" max_length="40" name="u_cmdb_ci" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Created" label="Created" max_length="40" name="u_created" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Created by" label="Created by" max_length="40" name="u_created_by" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Description" label="Description" max_length="40" name="u_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Disable commenting" label="Disable commenting" max_length="40" name="u_disable_commenting" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Disable suggesting" label="Disable suggesting" max_length="40" name="u_disable_suggesting" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Display attachments" label="Display attachments" max_length="40" name="u_display_attachments" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Domain" label="Domain" max_length="40" name="u_domain" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Flagged" label="Flagged" max_length="40" name="u_flagged" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Image" label="Image" max_length="40" name="u_image" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Introduction" label="Introduction" max_length="40" name="u_introduction" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Knowledge base" label="Knowledge base" max_length="40" name="u_knowledge_base" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Language" label="Language" max_length="40" name="u_language" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Meta" label="Meta" max_length="63" name="u_meta" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Next Review Date" label="Next Review Date" max_length="40" name="u_next_review_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Number" label="Number" max_length="40" name="u_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Owner Group" label="Owner Group" max_length="40" name="u_owner_group" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Parent" label="Parent" max_length="40" name="u_parent" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=PLAY Candidate" label="PLAY Candidate" max_length="40" name="u_play_candidate" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=PLAY Change" label="PLAY Change" max_length="40" name="u_play_change" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Published" label="Published" max_length="40" name="u_published" type="glide_date"/>
+        <element attributes="import_attribute_name=Rating" label="Rating" max_length="40" name="u_rating" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Retired" label="Retired" max_length="40" name="u_retired" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Roles" label="Roles" max_length="40" name="u_roles" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Short description" label="Short description" max_length="96" name="u_short_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Source" label="Source" max_length="40" name="u_source" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Tags" label="Tags" max_length="40" name="u_tags" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Text" label="Text" max_length="31217" name="u_text" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Topic" label="Topic" max_length="40" name="u_topic" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Updated" label="Updated" max_length="40" name="u_updated" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Updated by" label="Updated by" max_length="40" name="u_updated_by" type="string"/>
+        <element attributes="import_attribute_name=Updates" label="Updates" max_length="40" name="u_updates" type="integer"/>
+        <element attributes="import_attribute_name=Use count" label="Use count" max_length="40" name="u_use_count" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Valid to" label="Valid to" max_length="40" name="u_valid_to" type="glide_date"/>
+        <element attributes="import_attribute_name=View count" label="View count" max_length="40" name="u_view_count" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Workflow" label="Workflow" max_length="40" name="u_workflow" type="string"/>
+    </element>
+</database>
