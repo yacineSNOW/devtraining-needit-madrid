@@ -27,36 +27,32 @@
         <rest_service_text/>
         <rest_variables/>
         <role_conditions/>
-        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
-
-	// Add your code here
-	// Pass the Requested for email to the Script Include.  Store the return
-	// value from the Script Include in the isEmail variable
-	var isEmail = validateEmailAddress(current.u_requested_for_email);
-	// If isEmail is false (email address syntax is not valid) do not save
-	// the record.  Write an error message to the screen.
-	if(isEmail == false){
-		gs.addErrorMessage(current.u_requested_for_email + " is not a valid email address.  You must provide a valid email address.");
-		current.setAbortAction(true);
-	}
-})(current, previous);]]></script>
+        <script><![CDATA[// Pass the Requested for email to the Script Include.  Store the return
+// value from the Script Include in the isEmail variable
+var isEmail = validateEmailAddress(current.u_requested_for_email);
+// If isEmail is false (email address syntax is not valid) do not save
+// the record.  Write an error message to the screen.
+if(isEmail == false){
+	gs.addErrorMessage(current.u_requested_for_email + " Invalid email.  You must provide a valid email address.");
+	current.setAbortAction(true);
+}]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-04-19 15:01:29</sys_created_on>
+        <sys_created_on>2019-05-02 14:08:28</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>aa9e03134fb0730015f8ff6f9310c77e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_id>f1df75e74f01330015f8ff6f9310c798</sys_id>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Email Address Syntax Validate</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name>sys_script_aa9e03134fb0730015f8ff6f9310c77e</sys_update_name>
+        <sys_update_name>sys_script_f1df75e74f01330015f8ff6f9310c798</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-04-19 15:01:29</sys_updated_on>
+        <sys_updated_on>2019-05-02 14:12:22</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
-    <sys_translated_text action="delete_multiple" query="documentkey=aa9e03134fb0730015f8ff6f9310c77e"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=f1df75e74f01330015f8ff6f9310c798"/>
 </record_update>
